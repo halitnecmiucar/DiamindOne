@@ -77,7 +77,7 @@ const AnaSayfa = () => {
   return (
     <Box sx={{ p: 3 }}>
       <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom sx={{ mb: 4 }}>
-        Hoş Geldiniz, {currentUser?.username || 'Kullanıcı'}
+        Hoşgeldiniz, {currentUser?.username || 'Kullanıcı'}
       </Typography>
       
       <Grid container spacing={3}>
